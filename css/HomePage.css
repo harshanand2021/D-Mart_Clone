@@ -1,0 +1,43 @@
+header {
+  background-color: aliceblue;
+  box-shadow: 0px 0px 5px 4px;
+  margin: -6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul,
+li {
+  display: inline;
+  padding: 0 5px 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  font-family: Helvetica;
+}
+
+a:hover {
+  background-color: #aae9b6;
+  padding: 17px;
+}
+
+.facebook1 {
+  background-color: rgb(114, 107, 236);
+  font-weight: 600;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.linkedin1 {
+  background-color: rgb(114, 107, 236);
+  font-weight: 600;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
