@@ -1,33 +1,36 @@
 header {
-  background-color: aliceblue;
-  box-shadow: 0px 0px 5px 4px;
-  margin: -6px;
+  background-color: white;
+  box-shadow: 0px 0px 6px 3px;
+  margin: -7px -6px -6px -7px;
   display: flex;
   justify-content: space-between;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 ul,
 li {
   display: inline;
-  padding: 0 5px 0 10px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
+  padding: 15px 15px 0px 10px;
 }
 
 * {
   font-family: Helvetica;
 }
 
-a:hover {
+.a-style:hover {
   background-color: #aae9b6;
-  padding: 17px;
+  padding: 27px 12px 25px 12px;
+}
+
+.a-style {
+  text-decoration: uppercase;
+  text-decoration: none;
+  color: black;
 }
 
 .facebook1 {
-  background-color: rgb(114, 107, 236);
+  background-color: blue;
   font-weight: 600;
   padding: 5px;
   color: white;
@@ -35,9 +38,72 @@ a:hover {
 }
 
 .linkedin1 {
-  background-color: rgb(114, 107, 236);
+  background-color: rgb(117, 180, 235);
   font-weight: 600;
   padding: 5px;
   color: white;
   border-radius: 5px;
+}
+
+marquee {
+  background-color: #46bc58;
+  margin: -11px -7px 5px -8px;
+  color: white;
+  padding: 7px 14px;
+}
+
+.home-img {
+  margin: -9px 7px 0 -8px;
+}
+
+.title-style {
+  margin: 1rem;
+  text-align: center;
+}
+
+.child1-div {
+  position: absolute;
+  top: 45.5rem;
+  left: 39.5rem;
+}
+
+.span1-style {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.span-style {
+  text-transform: uppercase;
+  border-bottom: 2px solid;
+  border-bottom-color: #046d38;
+  padding: 4px;
+}
+
+.parent-div1 {
+  background-color: white;
+  box-shadow: 0 2px 5px 1px;
+  margin-top: 2rem;
+}
+
+.img1-style {
+  position: relative;
+}
+
+.span1-style {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.p1-style {
+  font-size: 14px;
+}
+
+.btn-style {
+  text-transform: uppercase;
+  color: white;
+  background-color: #046d38;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 12px;
+  border: #046d38;
 }
