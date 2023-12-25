@@ -1,66 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D-Mart</title>
-    <link rel="stylesheet" href="css/HomePage.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/HomePage.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <!-- copy this version url from cdn font awesome page -->
 </head>
-
 <body>
     <header>
-        <img src="images/logo.png" alt="d-mart" width="190px" height="90px" />
+        <img src="images/logo.png" width="180px" height="90px"  alt="image" class="logo-style"/>
         <ul>
-            <li><a href="about.html" class="a-style">About</a></li>
-            <li><a href="about.html" class="a-style">Categories</a></li>
-            <li><a href="about.html" class="a-style">Social Outreach</a></li>
-            <li><a href="about.html" class="a-style">Parents With</a></li>
-            <li><a href="about.html" class="a-style">Career</a></li>
-            <li><a href="about.html" class="a-style">Feedback</a></li>
-            <li><a href="#"><i class="fa fa-facebook facebook1"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin linkedin1"></i></a></li>
+            <li><a href="About.html" class="a-style">about</a></li>
+            <li><a href="#" class="a-style">catagories</a></li>
+            <li><a href="#" class="a-style">social outreach</a></li>
+            <li><a href="#" class="a-style">partners with</a></li>
+            <li><a href="#" class="a-style">career</a></li>
+            <li><a href="#" class="a-style">feedback</a></li>
         </ul>
+        <div style="display: flex;justify-content: space-around;">
+            <li><a href="#"><i class="fa-brands fa-facebook facebook1"></i></a></li>
+            <li><a><i class="fa-brands fa-linkedin linkedin1"></i></a></li>
+            <!-- facebook1 and linkedin1 are class given by us -->
+        </div>
     </header>
-
+    <br/>
     <main>
-
         <section>
-            <marquee><span>Dear Customers -Our offers / promotions and customer care contact details are published in
-                    our website(www.dmartindia.com).DMART ready app store.</span>
+            <marquee>
+                <span>Dear Customers - Our offers / promotions and customer care contact details are published on our websites
+                     (www.dmartindia.com and www.dmart.in), DMart Ready App and at our Stores. Please do not call any unknown 
+                     numbers or click on any unknown links or similar looking links. Please check the website name carefully. 
+                     These could be potential phishing websites.</span>
+            </marquee>
         </section>
-        </marquee>
-        </section>
-
         <section>
-            <img src="images/home.jpg" alt="image" width="102%"class="home-img" />
+            <img src="images/home.jpg" alt="image" width="101.2%" class="home-img"/>
         </section>
-
         <section>
             <div class="title-style">
                 <span class="span-style">quick links</span>
             </div>
         </section>
-
         <section>
             <div class="parent-div1">
-                <div class="img1-style">
-                    <img src="images/img4.jpg" width="40%" />
+                <div>
+                    <img src="images/img4.jpg" width="40%" class="img1-style"/>
                 </div>
 
                 <div class="child1-div">
-                    <span class="span1-style">New Suppliers</span>
-                    <p class="p1-style">Would you like to showcase your products to us?</p>
-                    <button class="btn-style" type="submit">online appointment</button>
-                    <button class="btn-style" type="submit">vendor registration</button>
+                <span class="span1-style">New Suppliers</span>
+                <p class="p1-style">Would you like to showcase your products to us?</p>
+                <button type="submit" class="btn-style">online appointment</button>
+                <button type="submit" class="btn-style">vendor registration</button>
+               </div>
+            </div>
+        </section>
+        <br/>
+        <section>
+            <div class="parent-div2">
+                <div class="child2-div">
+                    <span class="span1-style">Landlords</span>
+                    <p class="p1-style">Do you have a property to rent / sell?</p>
+                    <button type="submit" class="btn-style">register as a landlord</button>
+                   </div>
+
+                <div class="img2-style">
+                    <img src="images/img3.jpg" width="220%" height="180px" />
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="parent-div3">
+                <div>
+                    <img src="images/img5.jpg" width="40%" height="180px" class="img3-style"/>
+                </div>
+
+                <div class="child3-div">
+                <span class="span1-style">Job Aspirant</span>
+                <p class="p1-style">Interested in joining us?</p>
+                <button type="submit" class="btn-style">Apply Now</button>
+               </div>
+            </div>
+        </section>
+        <section>
+            <div class="parent-div4">
+                <div class="child4-div">
+                    <span class="span1-style">Better Schools, Brighter Futures!</span>
+                    <p class="p1-style">Better Schools, Brighter Future!</p>
+                    <button type="submit" class="btn-style">Read more</button>
+                   </div>
+
+                <div class="img4-style">
+                    <img src="images/img6.jpg" width="220%" height="180px" />
                 </div>
             </div>
         </section>
         <br/>
-        
+        <section>
+            <div class="title-style">
+                <span class="span-style">New Stores</span>
+            </div>
+            <br/>
+                <div  class="div5">
+                <span class="span2-style">Perungudi</span>
+                <p class="p2-style">Chennai, Tamil Nadu</p>
+                <img src="images/img7.png" width="100%" class="img5-style"/> 
+                </div>
+            
+                <div  class="div6">
+                <span class="span2-style">Bhandara</span>
+                <p class="p2-style">Nagpur,Maharashtra</p>
+                <img src="images/img8.png" width="267%" class="img5-style"/>
+                </div> 
 
+                <div class="div7">
+                <span class="span2-style">C21-Indore</span>
+                <p class="p2-style">Indore,MadhyaPradesh</p>
+                <img src="images/img9.png" width="235%" class="img5-style"/>
+               </div>  
+        </section>
+        <br/>
+        <section>
+            <div class="title-style">
+                <span class="span-style">store categories</span>
+            </div>
+            <br/>
+            <br/>
+            <div>
+                <img src="images/img8.jpg" class="img6-style" width="20%" />
+                <p class="p3-style">grocery & staples</p>
+
+               <img src="images/img9.jpg" class="img6-style pos" width="20%"/>
+                <p class="p3-style txt1">Daily Essentials</p>
+
+                <img src="images/img10.jpg" class="img6-style pos" width="20%" height="292px"/>
+                <p class="p3-style txt2">dairy & frozen</p>
+
+                <img src="images/img11.jpg" class="img6-style pos" width="20%"/>
+                <p class="p3-style txt3">dmart brands</p>
+            </div>
+            <br/>
+            <div>
+                <img src="images/img12.jpg" class="img6-style" width="20%"/>
+                <p class="p3-style txt4">home & personal care</p>
+
+                <img src="images/img13.jpg" class="img6-style pos" width="20%"/>
+                <p class="p3-style txt5">bed & bath</p>
+
+                <img src="images/img14.jpg" class="img6-style pos" width="20%"/>
+                <p class="p3-style txt6">home appliances</p>
+
+                <img src="images/img15.jpg" class="img6-style pos" width="20%"/>
+                <p class="p3-style txt7">crockery</p>
+            </div>
+            <br/>
+            <div>
+                <img src="images/img16.jpg" class="img6-style" width="20%" height="292px"/>
+                <p class="p3-style txt8">footwear</p>
+
+                <img src="images/img17.jpg" class="img6-style pos" width="20%"/>
+                <p class="p3-style txt9">luggage</p>
+
+                <img src="images/img18.jpeg" class="img6-style pos" width="20%" height="292px"/>
+                <p class="p3-style txt10">toys & games</p>
+
+                <img src="images/img19.jpeg" class="img6-style pos" width="20%" height="292px"/>
+                <p class="p3-style txt11">plastic containers</p>
+            </div>
+            <br/>
+            <div>
+                <img src="images/img22.jpg" class="img6-style" width="20%"/>
+                <p class="p3-style txt12">kid's apparel</p>
+
+                <img src="images/img23.jpg" class="img6-style pos" width="20%"/>
+                <p class="p3-style txt13">women's apparel</p>
+
+                <img src="images/img24.jpg" class="img6-style pos" width="20%" height="292px"/>
+                <p class="p3-style txt14">men's apparel</p>
+
+                <img src="images/img25.jpg" class="img6-style pos" width="20%"/>
+                <p class="p3-style txt15">fruits & vegetables</p>
+            </div>
+        </section>
+        <br/><br/>
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248774.55101871726!2d77.30230319453128!3d13.02915320000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17a75a549fbd%3A0x7fabf2678c8c431b!2sDMart!5e0!3m2!1sen!2sin!4v1703178900822!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="map-style">
+                <span>Sitemap</span>
+                <span>Privacy Policy</span>
+                <span>Terms of Use</span>
+                <span>Investor Relations</span>
+            </div>
+        </section>
     </main>
-</body>
 
+</body>
 </html>
