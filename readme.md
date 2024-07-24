@@ -36,4 +36,4 @@ You will need a web browser to view the application.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your-username/d-mart-clone.git
+   git clone https://github.com/harshanand2021/d-mart-clone.git
